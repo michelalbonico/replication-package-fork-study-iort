@@ -2,4 +2,4 @@
 
 ## Selected Repositories
 
-![Selected Repositories](./seleted-repos.png)
+![Selected Repositories](./selected-repos.png)
