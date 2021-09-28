@@ -3,7 +3,7 @@
 Our methodology consists of 3 main phases, as illustrated in the figure bellow. You can get aware of it by checking [our paper](https://nuvem.utfpr.edu.br/index.php/s/jWcSX4fDkBYdvnJ).
 
 
-<img src="./workflow.png" width="200" align="center">
+<img src="./workflow.png" width="400" align="center" alt="Work Methodology">
 
 ## Building the Dataset
 
