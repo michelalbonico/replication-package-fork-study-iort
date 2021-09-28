@@ -65,9 +65,7 @@ If you either find inconsistencies or need some extra explanation, drop us [emai
 
 ## SBCARS Presentation
 
-The slides are available [here](#).
-
-This is the recorded video.
+The slides used for the SBCARS 2021 presentation are available [here](./sbcars_2021.pdf).
 
 ## Selected Repositories
 
