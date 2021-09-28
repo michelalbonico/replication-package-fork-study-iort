@@ -39,7 +39,7 @@ $ pythong mine.py
 
 You got here, so it seems that you are interested, right? Check out our data analysis [here](https://docs.google.com/spreadsheets/d/1CsLUjaCNy3LT6rFMImbM0fqySriKSE5gOBEp0ZMEQho/edit?usp=sharing)
 
-If you either find inconsistencies or need some extra explanation, drop an email at [mailto](mailto:michelalbonico@utfpr.edu.br).
+If you either find inconsistencies or need some extra explanation, drop us [email](mailto:michelalbonico@utfpr.edu.br).
 
 ## Check our Presentation for SBCARS
 
