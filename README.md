@@ -20,6 +20,7 @@ Our scripts are organized as the following:
     |--- git_api/       		Shell scripts that automate the search with Git REST API.
          |--- extract.sh        Shell script that extracts GitHub content into JSON files.
          |--- run.sh            Shell script where the extract.sh parameters are set.
+         |--- mine.py           Python script to convert JSON content into CSV files (single file yet).
 ```
 
 1) For extracting repositories with Git RES API, just set up the parameters in the ==run.sh==, then run it.
@@ -29,7 +30,7 @@ $ ./run.sh
 
 2) In order to make it easier to interact, we export JSON content to a SQLite dataset:
 ```
-
+$ pythong mine.py
 ```
 
 2) Now you can manually export SQlite tables to CSV files. Check [this](https://www.sqlitetutorial.net/sqlite-tutorial/sqlite-export-csv/).
