@@ -63,7 +63,7 @@ You got here, so it seems that you are interested, right? Check out our data ana
 
 If you either find inconsistencies or need some extra explanation, drop us [email](mailto:michelalbonico@utfpr.edu.br).
 
-## Check our Presentation for SBCARS
+## SBCARS Presentation
 
 The slides are available [here](#).
 
