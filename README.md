@@ -49,6 +49,6 @@ This is the recorded video.
 
 ## Selected Repositories
 
-This work resulted in the following list of IoRT repositories.
+This work resulted in the following list of IoRT repositories (sorry for the image).
 
 ![Selected Repositories](./selected-repos.png)
