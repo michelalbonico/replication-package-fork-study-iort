@@ -2,7 +2,8 @@
 
 Our methodology consists of 3 main phases, as illustrated in the figure bellow. You can get aware of it by checking [our paper](https://nuvem.utfpr.edu.br/index.php/s/jWcSX4fDkBYdvnJ).
 
-![MSR Methodology](./workflow.png =100x20)
+
+<img src="./workflow.png" width="200" align="center">
 
 ## Building the Dataset
 
