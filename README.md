@@ -1,9 +1,30 @@
 # Replication Package of Paper at SBCARS 2021
 
-Our methodology consists of 3 main phases, as illustrated in the figure bellow. You can get aware of it by checking [our paper](https://nuvem.utfpr.edu.br/index.php/s/jWcSX4fDkBYdvnJ).
+Here you will find the implementation details of our work **Mining Evidences of Internet of Robotic Things (IoRT) Software from Open Source Projects** published at SBCARS 2021.
 
+Our methodology consists of 3 main phases, as illustrated in the figure bellow. You can get more details each phase from [our paper](https://nuvem.utfpr.edu.br/index.php/s/jWcSX4fDkBYdvnJ).
 
 <img src="./workflow.png" width="300" align="center" alt="Work Methodology">
+
+This study has been carried out by members of the [Intel Agir Research Group](https://intelagir-research-group.github.io/), with the support of the Fundação Araucária. This is our team of researchers:
+
+- [Michel Albonico](https://michelalbonico.github.io) (Professor at Federal University of Technology, Paraná) 
+- [Adair José Rohling](https://scholar.google.com/citations?user=YhGAMeQAAAAJ&hl=pt-BR) (Professor at Federal University of Technology, Paraná)
+- [Paulo Júnior Varela](https://scholar.google.com/citations?user=hI4vnxAAAAAJ&hl=pt-BR) (Professor at Federal University of Technology, Paraná)
+- [Juliano Soares](#) (Intern at Federal University of Technology, Paraná)
+
+If the dataset is helping your research, consider to **cite** it is as follows, thanks!
+
+```
+@inproceedings{SBCARS_2021_iort_software_evidence,
+  title = { Mining Evidences of Internet of Robotic Things (IoRT) Software from Open Source Projects },
+  author = { Michel Albonico and Adair Jose Rohling and Paulo Junior Varela and Juliano Soares },
+  pages = { To appear },
+  month = { Sep },
+  booktitle={SBCARS},
+  year      = {2021}
+}
+```
 
 ## Building the Dataset
 
@@ -24,7 +45,7 @@ Our scripts are organized as the following:
          |--- mine.py           Python script to convert JSON content into CSV files (single file yet).
 ```
 
-1) For extracting repositories with Git RES API, just set up the parameters in the ==run.sh==, then run it.
+1) For extracting repositories with Git RES API, just set up the parameters in the **run.sh** script, then run it.
 ```
 $ ./run.sh
 ```
