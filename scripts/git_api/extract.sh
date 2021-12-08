@@ -58,7 +58,7 @@ while [ $year -lt 2021 ]; do
 		date=$year"-"$month"-01"..$year"-"$month"-15"
 		ii=1
 		while [ $count -lt 800 ]; do
-			curl -u michelalbonico:97705bb4a5c187caa4c7fd1f6096d8656ed5eb1b "https://api.github.com/search/repositories?q=$terms+in:$where+created:$date&per_page=100&page=$ii" -o $dir"/"$file"-"$i".json"
+			curl -u $username:$hash "https://api.github.com/search/repositories?q=$terms+in:$where+created:$date&per_page=100&page=$ii" -o $dir"/"$file"-"$i".json"
 			count=$((count+100))
 			i=$((i+1))
 			ii=$((ii+1))
@@ -67,7 +67,7 @@ while [ $year -lt 2021 ]; do
 		date=$year"-"$month"-16"..$year"-"$month"-"$day
 		ii=1
 		while [ $count -lt 800 ]; do
-			curl -u michelalbonico:97705bb4a5c187caa4c7fd1f6096d8656ed5eb1b "https://api.github.com/search/repositories?q=$terms+in:$where+created:$date&per_page=100&page=$ii" -o $dir"/"$file"-"$i".json"
+			curl -u $username:$hash "https://api.github.com/search/repositories?q=$terms+in:$where+created:$date&per_page=100&page=$ii" -o $dir"/"$file"-"$i".json"
 			count=$((count+100))
 			i=$((i+1))
 			ii=$((ii+1))
