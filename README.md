@@ -69,6 +69,6 @@ The slides used for the SBCARS 2021 presentation are available [here](./sbcars_2
 
 ## Selected Repositories
 
-This work resulted in the following list of IoRT repositories (sorry for the image).
+This work resulted in the following [list](https://docs.google.com/spreadsheets/d/1zZBJivV7sx2SO8pTwbgYK3lmMYP2hXs7VvVjS3vLFdY/edit?usp=sharing) of IoRT repositories (sorry for the image). 
 
 ![Selected Repositories](./selected-repos.png)
