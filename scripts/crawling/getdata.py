@@ -25,6 +25,7 @@ for line in f:
 repositoryArray = []
 next_exists = False
 urls = []
+fork_url = []
 
 
 # , 'Iot', 'Internet of things', 'Internet das coisas'
@@ -113,8 +114,10 @@ def get_data(urls):
         fork_item = chrome.find_element_by_class_name("Layout-main")
         fork_list = fork_item.find_elements_by_class_name("network")
         for fork in fork_list:
-            url_fork= fork.find_elements_by_class_name("repo")[0].text
+            class_repo = fork.find_elements_by_class_name("repo")[1]
+            url_fork = class_repo.find_element_by_css_selector('a').get_attribute('href')
         
+            fork_url.append(url_fork)
             print(url_fork)
             print('-----------')
         
